@@ -1,0 +1,39 @@
+.navbar{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.5em 0;
+    
+}
+h2{
+    color:red ;
+    padding-bottom:1em;
+    font-style: italic;
+}
+
+.footer{
+    
+    padding: 0.3em 0;
+    text-align: center;
+}
+
+#productos{
+    min-height: 100vh;
+    max-height: 100%;
+}
+#contacto{
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+
+@media (min-width: 992px) { /* Pantallas grandes*/
+    #carouselExampleCaptions .carousel-item img {
+        max-height: 768px; 
+        width: auto;
+        margin: auto; 
+    }
+    
+    }
+
